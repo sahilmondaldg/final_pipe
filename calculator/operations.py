@@ -8,18 +8,15 @@ def multiply(x, y):
     return x * y
 
 def divide(x, y):
-    
-        
     return x / y
 
 def main():
     print("Simple Calculator")
     print("Select operation:")
 
-    # Hardcoded values
-    choice = '1'  # Change this to '2', '3', or '4' for other operations
-    num1 = 10  # First hardcoded number
-    num2 = 5   # Second hardcoded number
+    choice = '1'  
+    num1 = 10 
+    num2 = 5   
 
     if choice in ['1', '2', '3', '4']:
         if choice == '1':
